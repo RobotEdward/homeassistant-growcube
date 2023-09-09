@@ -1,3 +1,4 @@
 {
-  "name": "GrowCube"
+  "name": "GrowCube",
+  "render_readme" : true
 }

@@ -2,9 +2,13 @@
 
 This is a very early version of a Home Assistant integration for the Elecrow GrowCube smart plant watering system.
 
+## Discussion Thread
+
+https://community.home-assistant.io/t/elecrow-growcube-integration-smart-plant-watering-system/612283
+
 ## Warning
 
-This is still at the _works on my machine_ stage while I understand how it all fits together. Probably doesn't comply with Home Assistant best practices so I can't guarantee there won't be any weird behaviour.
+This is still at the _works on my machine_ stage while I understand how it all fits together.
 
 Don't rely on it to keep your plants alive!
 
@@ -24,15 +28,15 @@ It also adds a device entry to link all the sensors together in the Home Assista
 
 It may work for multiple GrowCubes but I don't have a way of testing that.
 
-
 ## Installation
 
 Easiest way is to use [HACS](https://hacs.xyz/).
 In HACS:
- - Got to Integrations
- - Open the menu and choose *Custom Repositories*
- - Add https://github.com/RobotEdward/homeassistant-growcube
- - Install the integration as normal using HACS and restart Home Assistant 
+
+- Got to Integrations
+- Open the menu and choose _Custom Repositories_
+- Add https://github.com/RobotEdward/homeassistant-growcube
+- Install the integration as normal using HACS and restart Home Assistant
 
 # Usage
 

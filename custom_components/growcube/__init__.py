@@ -18,8 +18,10 @@ async def async_setup_entry(hass: HomeAssistant, entry: ConfigEntry) -> bool:
 
     hass.data.setdefault(DOMAIN, {})
 
-    status = await hass.async_add_executor_job(
-        pygrowcube.get_status, entry.data["ip"], 5, False
+    status = await pygrowcube.get_status(
+        growcube_address=entry.data["ip"],
+        timeout_in_seconds=5,
+        wait_for_sensor_readings=False,
     )
 
     hass.data[DOMAIN][entry.entry_id] = status

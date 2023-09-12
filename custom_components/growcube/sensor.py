@@ -58,8 +58,10 @@ class GrowCubeSensorCoordinator(DataUpdateCoordinator):
         try:
             _LOGGER.info("Refreshing GrowCube status")
             async with async_timeout.timeout(15):
-                self.status = await self.hass.async_add_executor_job(
-                    pygrowcube.get_status, self.status.host, 12
+                self.status = await pygrowcube.get_status(
+                    growcube_address=self.status.host,
+                    timeout_in_seconds=14,
+                    wait_for_sensor_readings=True,
                 )
                 _LOGGER.info(
                     "GrowCube refreshed all sensors: %s",

@@ -4,11 +4,10 @@
   "codeowners": ["@robotedward"],
   "config_flow": true,
   "dependencies": [],
-  "documentation": "https://www.home-assistant.io/integrations/growcube",
+  "documentation": "https://community.home-assistant.io/t/elecrow-growcube-integration-smart-plant-watering-system/612283",
   "homekit": {},
   "iot_class": "local_polling",
-  "requirements": ["pygrowcube==0.1.4"],
+  "requirements": ["pygrowcube==0.2.0"],
   "ssdp": [],
-  "zeroconf": [],
-  "version" : "0.1.4"
+  "zeroconf": []
 }

@@ -1,5 +1,14 @@
 # GrowCube Home Assistant Custom Component
 
+# NO LONGER UNDER DEVELOPMENT: USE THIS CUSTOM COMPONENT INSTEAD
+
+Jonny Bergdahl has created a much more complete and robust integration than my experiment so I recommend using that instead of my repo:
+
+https://github.com/jonnybergdahl/HomeAssistant_Growcube_Integration
+
+https://community.home-assistant.io/t/i-created-a-full-elecrow-growcube-integration/657707
+
+
 This is a very early version of a Home Assistant integration for the Elecrow GrowCube smart plant watering system.
 
 ## Discussion Thread
